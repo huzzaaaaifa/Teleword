@@ -4,7 +4,7 @@ TeleWord is a C++ project designed as a word-guessing game that challenges playe
 
 ## Features
 
-- Automated game to solve a teleword puzzle. You don't have to do anything other than inserting words and characters in teleword.txt.
+- Automated game to solve a teleword puzzle. You don't have to do anything other than inserting words and characters in teleword.txt in format already in given txt file.
 
 ## Installation
 
@@ -12,11 +12,12 @@ TeleWord is a C++ project designed as a word-guessing game that challenges playe
 
 ```shell
 git clone https://github.com/huzzaaaaifa/Teleword.git
-cd teleword
+cd Teleword
 ```
 
 ### Step 2: Run the Game
 
 ```shell
+g++ main.CPP -o main
 ./main teleword.txt
 ```
